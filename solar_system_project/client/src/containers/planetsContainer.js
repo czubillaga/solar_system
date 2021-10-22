@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react'
+import PlanetList from '../components/PlanetsList'
+import PlanetsDetail from '../components/PlanetsDetail'
 
 const PlanetsContainer = () => {
 
@@ -15,8 +17,14 @@ const PlanetsContainer = () => {
         getPlanets()
     }, [])
 
+    const onPlanetSelect = (planet) => {
+        selectedPlanet(planet)
+    }
+
     return(
-        <h1>This is the PlanetsContainer!</h1>
+        <div>
+            <h1>This is the PlanetsContainer</h1>
+        </div>
     )
 }
 
