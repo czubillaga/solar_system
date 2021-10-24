@@ -31,4 +31,4 @@ const MoonsContainer = () => {
     )
 }
 
-export default MoonsContainer
+export default MoonsContainer;

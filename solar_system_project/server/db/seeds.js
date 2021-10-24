@@ -10,7 +10,7 @@ db.planets.insertMany([
     moons: [],
     gravity: "3.7g",
     distance: "46.925 million",
-    image_url: "https://solarsystem.nasa.gov/resources/439/mercurys-subtle-colors/?category=planets_mercury"
+    image_url: "https://solarsystem.nasa.gov/system/resources/detail_files/439_MercurySubtleColors1200w.jpg"
   },
   {
     name: "Venus",
@@ -20,7 +20,7 @@ db.planets.insertMany([
     moons: [],
     gravity: "8.87g",
     distance: "108.82 million",
-    image_url: "https://solarsystem.nasa.gov/resources/2524/newly-processed-views-of-venus-from-mariner-10/?category=planets_venus"
+    image_url: "https://solarsystem.nasa.gov/system/resources/detail_files/2524_PIA23791.jpg"
   },
   {
     name: "Earth",
@@ -29,13 +29,12 @@ db.planets.insertMany([
     planet: "True",
     moons: [
       {
-        name: "The Moon",
-        image_url: "https://solarsystem.nasa.gov/resources/843/rare-full-moon-on-christmas-day/?category=moons_earths-moon"
+        name: "The Moon"
       }
     ],
     gravity: "9.8g",
     distance: "148.79 million",
-    image_url: "https://solarsystem.nasa.gov/resources/581/earth-by-suomi-npp/?category=planets_earth"
+    image_url: "https://solarsystem.nasa.gov/system/resources/detail_files/581_PIA18033_1200w.jpg"
   },
   {
     name: "Mars",
@@ -52,7 +51,7 @@ db.planets.insertMany([
     ],
     gravity: "3.71g",
     distance: "243.02 million",
-    image_url: "https://solarsystem.nasa.gov/resources/683/valles-marineris-the-grand-canyon-of-mars/?category=planets_mars"
+    image_url: "https://solarsystem.nasa.gov/system/resources/detail_files/683_6453_mars-globe-valles-marineris-enhanced-full2.jpg"
   },
   {
     name: "Jupiter",
@@ -75,7 +74,7 @@ db.planets.insertMany([
     ],
     gravity: "24.79g",
     distance: "746.6 million",
-    image_url: "https://solarsystem.nasa.gov/resources/803/jupiter-and-io/?category=planets_jupiter"
+    image_url: "https://solarsystem.nasa.gov/system/resources/detail_files/803_192016main_100907_11_detail.jpg"
   },
   {
     name: "Saturn",
@@ -101,7 +100,7 @@ db.planets.insertMany([
   ],
     gravity: "10.44g",
     distance: "1.4836 billion",
-    image_url: "https://solarsystem.nasa.gov/resources/663/saturn-taken-from-voyager-2/?category=planets_saturn"
+    image_url: "https://solarsystem.nasa.gov/system/resources/detail_files/663_PIA01364.jpg"
   },
   {
     name: "Uranus",
@@ -127,7 +126,7 @@ db.planets.insertMany([
     ],
     gravity: "8.87g",
     distance: "2.9513 billion",
-    image_url: "https://solarsystem.nasa.gov/resources/603/uranus-final-image/?category=planets_uranus"
+    image_url: "https://solarsystem.nasa.gov/system/resources/detail_files/603_PIA00143.jpg"
   },
   {
     name: "Neptune",
@@ -153,6 +152,26 @@ db.planets.insertMany([
     ],
     gravity: "11.15g",
     distance: "4.475 billion",
-    image_url: "https://solarsystem.nasa.gov/resources/611/neptune-full-disk-view/?category=planets_neptune"
+    image_url: "https://solarsystem.nasa.gov/system/resources/detail_files/611_PIA01492.jpg"
   }
+]);
+
+db.moons.insertMany([
+  {
+  name: "The Moon",
+  temp: "-173 to 427°C",
+  planet: "Earth",
+  gravity: "3.7g",
+  distance: "46.925 million",
+  image_url: "https://solarsystem.nasa.gov/system/resources/detail_files/843_christmas2015fullmoon.jpg"
+  },
+  {
+    name: "Phobos",
+    temp: "-173 to 427°C",
+    planet: "Mars",
+    gravity: "3.7g",
+    distance: "46.925 million",
+    image_url: "https://solarsystem.nasa.gov/system/resources/detail_files/843_christmas2015fullmoon.jpg"
+    }
+
 ]);
