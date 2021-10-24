@@ -2,9 +2,9 @@ import React from "react";
 import PlanetListItem from "./PlanetsListItem"
 
 
-const PlanetList = ({ planets, removePlanet}) =>{
-    const planetItems = planets?.map((planet, index) => {
-        return <PlanetListItem planet={planet} key={index} removePlanet={removePlanet}/>
+const PlanetList = ({ planets, onPlanetSelect}) =>{
+    const planetItems = planets.map((planet, index) => {
+        return <PlanetListItem planet={planet} key={index} onPlanetSelect={onPlanetSelect}/>
 
     })
     return(

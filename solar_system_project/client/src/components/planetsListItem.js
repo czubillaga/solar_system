@@ -1,6 +1,6 @@
 import React from 'react';
 
-const planetsListItem = ({planet, onPlanetSelect}) => {
+const PlanetsListItem = ({planet, onPlanetSelect}) => {
     const handlePlanetClick = (clickedPlanet) => {
         onPlanetSelect(clickedPlanet)
     }
@@ -12,5 +12,5 @@ const planetsListItem = ({planet, onPlanetSelect}) => {
     )
 }
 
-export default planetsListItem;
+export default PlanetsListItem;
 

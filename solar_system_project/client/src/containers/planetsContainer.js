@@ -5,7 +5,7 @@ import PlanetsDetail from '../components/PlanetsDetail'
 const PlanetsContainer = () => {
 
     const [planets, setPlanets] = useState([])
-    const [selectedPlanet, setSelectedPlanet] = useState()
+    const [selectedPlanet, setSelectedPlanet] = useState(null)
 
     const getPlanets = () => {
         fetch('http://localhost:5000/api/planets')
@@ -18,12 +18,15 @@ const PlanetsContainer = () => {
     }, [])
 
     const onPlanetSelect = (planet) => {
-        selectedPlanet(planet)
+        setSelectedPlanet(planet)
     }
 
     return(
         <div>
             <h1>This is the PlanetsContainer</h1>
+            <PlanetList planets={planets} onPlanetSelect={onPlanetSelect}/>
+            {selectedPlanet ? <PlanetsDetail planet={selectedPlanet}/>: null}
+
         </div>
     )
 }
