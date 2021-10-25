@@ -313,3 +313,28 @@ db.moons.insertMany([
   }
 
 ]);
+
+db.asteroids.insertMany([
+  {
+    name: "101955 Bennu",
+    discovered: 1999,
+    impact: "1 in 2700",
+    year: "438 Earth Days",
+    image_url: "https://solarsystem.nasa.gov/system/resources/detail_files/921_683_bennu_carousel_5.jpg"
+  },
+  {
+    name: "10199 Chariklo",
+    discovered: 1997,
+    impact: "1 in 2700",
+    year: "438 Earth Days",
+    image_url: "https://solarsystem.nasa.gov/system/content_pages/main_images/411_10199_chariklo_main.jpg"
+  },
+  {
+    name: "16 Psyche",
+    discovered: 1852,
+    impact: "1 in 2700",
+    year: "5 Earth Years",
+    image_url: "https://solarsystem.nasa.gov/system/content_pages/main_images/411_10199_chariklo_main.jpg"
+  }
+
+]);
