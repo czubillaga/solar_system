@@ -1,0 +1,65 @@
+.planets-detail{
+    border-style: solid;
+    border-radius: 15px;
+    border-color: silver;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.moons-detail{
+    border-style: solid;
+    border-radius: 15px;
+    border-color: silver;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.asteroids-detail{
+    border-style: solid;
+    border-radius: 15px;
+    border-color: silver;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.list{
+    list-style: none;
+}
+
+.list li a{
+    text-decoration: none;
+    color: white;
+}
+
+#planet{
+    margin-bottom: 25px;
+    margin-top: -500px;
+    margin-right: 25px;
+    float: right;
+}
+
+#moon{
+    margin-bottom: 25px;
+    margin-top: -500px;
+    margin-right: 25px;
+    float: right;
+}
+
+#asteroid{
+    margin-bottom: 25px;
+    margin-top: -500px;
+    margin-right: 25px;
+    float: right;
+}

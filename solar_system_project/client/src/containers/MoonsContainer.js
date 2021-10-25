@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import MoonList from '../components/MoonsList'
 import MoonsDetail from '../components/MoonsDetail'
+import './Containers.css';
 
 const MoonsContainer = () => {
 
@@ -22,8 +23,7 @@ const MoonsContainer = () => {
     }
 
     return(
-        <div>
-            <h1>This is the MoonsContainer</h1>
+        <div className="main-container">
             <MoonList moons={moons} onMoonSelect={onMoonSelect}/>
             {selectedMoon ? <MoonsDetail moon={selectedMoon}/>: null}
 

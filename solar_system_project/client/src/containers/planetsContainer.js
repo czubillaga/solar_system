@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import PlanetList from '../components/PlanetsList'
 import PlanetsDetail from '../components/PlanetsDetail'
+import './Containers.css';
 
 const PlanetsContainer = () => {
 
@@ -22,11 +23,9 @@ const PlanetsContainer = () => {
     }
 
     return(
-        <div>
-            <h1>This is the PlanetsContainer</h1>
+        <div className="main-container">
             <PlanetList planets={planets} onPlanetSelect={onPlanetSelect}/>
             {selectedPlanet ? <PlanetsDetail planet={selectedPlanet}/>: null}
-
         </div>
     )
 }

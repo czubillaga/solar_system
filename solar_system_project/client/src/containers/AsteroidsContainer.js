@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import AsteroidsList from '../components/AsteroidsList'
 import AsteroidsDetail from '../components/AsteroidsDetail'
+import './Containers.css';
 
 const AsteroidsContainer = () => {
 
@@ -22,8 +23,7 @@ const AsteroidsContainer = () => {
     }
 
     return(
-        <div>
-            <h1>This is the AsteroidsContainer</h1>
+        <div className="main-container">
             <AsteroidsList asteroids={asteroids} onAsteroidSelect={onAsteroidSelect}/>
             {selectedAsteroid ? <AsteroidsDetail asteroid={selectedAsteroid}/>: null}
 
