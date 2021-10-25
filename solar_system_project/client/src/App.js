@@ -17,7 +17,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/planets" component={PlanetsContainer} />
         <Route path="/moons" component={MoonsContainer} />
-        <Route path="/asteroids" component={AsteroidsContainer} />
+        <Route path="/asteroids" component={AsteroidsContainer}/>
         <Route component={ErrorPage} />
         </Switch>
       </>
