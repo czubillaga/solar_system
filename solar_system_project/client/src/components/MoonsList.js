@@ -8,7 +8,7 @@ const MoonList = ({ moons, onMoonSelect}) =>{
 
     })
     return(
-        <div id="planets-list">
+        <div id="moons-list">
         <h2>Moons</h2>
         <p>
             {moonItems}
