@@ -7,16 +7,16 @@ const NavBar = () => {
         <div>
         <ul className="nav-bar">
             <li>
-                <Link to="/">Home</Link> 
+                <button><span><Link to="/">Home</Link></span></button>
             </li>
             <li>
-                <Link to="/planets">Planets</Link> 
+                <button><span><Link to="/planets">Planets</Link></span></button>
             </li>
             <li>
-                <Link to="/moons">Moons</Link> 
+                <button><span><Link to="/moons">Moons</Link></span></button>
             </li>
             <li>
-                <Link to="/asteroids">Asteroids</Link>
+                <button><span><Link to="/asteroids">Asteroids</Link></span></button>
             </li>
         </ul>
         </div>

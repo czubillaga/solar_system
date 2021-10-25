@@ -13,7 +13,6 @@ const PlanetList = ({ planets, onPlanetSelect}) =>{
         <p>
             {planetItems}
         </p>
-
         </div>
     )
 };

@@ -1,37 +1,43 @@
 .planets-detail{
     border-style: solid;
     border-radius: 15px;
-    border-color: silver;
+    border-color: #D6BA73;
     margin-top: 20px;
     margin-bottom: 50px;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
+    background-color: black;
+    color: white;
 }
 
 .moons-detail{
     border-style: solid;
     border-radius: 15px;
-    border-color: silver;
+    border-color: #D6BA73;
     margin-top: 20px;
     margin-bottom: 50px;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
+    background-color: black;
+    color: white;
 }
 
 .asteroids-detail{
     border-style: solid;
     border-radius: 15px;
-    border-color: silver;
+    border-color: #D6BA73;
     margin-top: 20px;
     margin-bottom: 50px;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
+    background-color: black;
+    color: white;
 }
 
 .list{
@@ -52,14 +58,12 @@
 
 #moon{
     margin-bottom: 25px;
-    margin-top: -500px;
     margin-right: 25px;
     float: right;
 }
 
 #asteroid{
     margin-bottom: 25px;
-    margin-top: -500px;
     margin-right: 25px;
     float: right;
 }

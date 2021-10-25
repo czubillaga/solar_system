@@ -1,4 +1,5 @@
 import React from 'react';
+import './Lists.css'
 
 const PlanetsListItem = ({planet, onPlanetSelect}) => {
     const handlePlanetClick = (clickedPlanet) => {
@@ -6,9 +7,11 @@ const PlanetsListItem = ({planet, onPlanetSelect}) => {
     }
 
     return (
+        <div className="list">
         <li onClick={() => {handlePlanetClick(planet)}}>
         {planet.name}
         </li>
+        </div>
     )
 }
 

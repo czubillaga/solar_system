@@ -1,4 +1,5 @@
 import React from 'react';
+import './Lists.css';
 
 const MoonsListItem = ({moon, onMoonSelect}) => {
     const handleMoonClick = (clickedMoon) => {
@@ -6,9 +7,11 @@ const MoonsListItem = ({moon, onMoonSelect}) => {
     }
 
     return (
+        <div className="list">
         <li onClick={() => {handleMoonClick(moon)}}>
         {moon.name}
         </li>
+        </div>
     )
 }
 
