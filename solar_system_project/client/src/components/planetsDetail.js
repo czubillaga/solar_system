@@ -26,7 +26,7 @@ const PlanetsDetail = ({planet}) => {
     return(
         <div id="planets-detail">
             <h1>{planet.name}</h1>
-            <h3>Also known as: {name()}</h3>
+            <h3>Alternative Names: {name()}</h3>
             <h3>Famous Moons: {moons()}</h3>
             <h4>Surface Temperature: {planet.temp}</h4>
             <p>Gravity: {planet.gravity}</p>
