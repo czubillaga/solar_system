@@ -13,6 +13,9 @@ const NavBar = () => {
             <li>
                 <Link to="/moons">Moons</Link> 
             </li>
+            <li>
+                <Link to="/asteroids">Asteroids</Link>
+            </li>
         </ul>
     )
 }

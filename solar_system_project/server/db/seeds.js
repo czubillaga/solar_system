@@ -325,16 +325,23 @@ db.asteroids.insertMany([
   {
     name: "10199 Chariklo",
     discovered: 1997,
-    impact: "1 in 2700",
-    year: "438 Earth Days",
+    impact: null,
+    year: "63 Earth Years",
     image_url: "https://solarsystem.nasa.gov/system/content_pages/main_images/411_10199_chariklo_main.jpg"
   },
   {
     name: "16 Psyche",
     discovered: 1852,
-    impact: "1 in 2700",
+    impact: null,
     year: "5 Earth Years",
-    image_url: "https://solarsystem.nasa.gov/system/content_pages/main_images/411_10199_chariklo_main.jpg"
+    image_url: "https://solarsystem.nasa.gov/system/content_pages/main_images/416_16_psyche_main.jpg"
+  },
+  {
+    name: "2019 OK",
+    discovered: 2019,
+    impact: null,
+    year: "993 Earth Days",
+    image_url: "https://cdn.images.express.co.uk/img/dynamic/151/590x/asteroid-close-approach-2019-OK-near-miss-2019-ok-space-news-1166276.webp?r=1565989375217"
   }
 
 ]);
