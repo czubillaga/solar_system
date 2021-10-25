@@ -10,7 +10,7 @@ const AsteroidsContainer = () => {
     const getAsteroids = () => {
         fetch('http://localhost:5000/api/asteroids')
             .then(res => res.json())
-            .then(data => setAsteroidss(data))
+            .then(data => setAsteroids(data))
     }
 
     useEffect(() => {
@@ -25,7 +25,7 @@ const AsteroidsContainer = () => {
         <div>
             <h1>This is the AsteroidsContainer</h1>
             <AsteroidList asteroids={asteroids} onAsteroidSelect={onAsteroidSelect}/>
-            {selectedAsteroid ? <AsteroidsDetail asteroid={selectedAsteroid}/>: null}
+            {selectedAsteroid ? <AsteroidsDetail asteroid={selectedAsteroids}/>: null}
 
         </div>
     )

@@ -13,7 +13,7 @@ const AsteroidsDetail = ({asteroid}) => {
             {asteroid.discovered}
             <p>{asteroid.impact}</p>
             <p>{asteroid.year}</p>
-            <img src={moon.image_url}/>
+            <img src={asteroid.image_url}/>
         </div>
     )
 
