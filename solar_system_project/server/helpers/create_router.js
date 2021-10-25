@@ -26,6 +26,19 @@ const createRouter = function(collection) {
         })
     })
 
+    // SEARCH 
+    router.get('/search/:query', (req, res) => {
+        const query = req.params.query
+        collection.find({name: query})
+            .toArray()
+            .then((body) => res.json(body[0]))
+            .catch((err) => {
+                console.error(err)
+                res.status(500)
+                res.json({ status: 500, error: err })
+            })
+    }) 
+
     return router
 
 }

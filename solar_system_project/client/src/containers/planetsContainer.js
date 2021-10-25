@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import PlanetList from '../components/PlanetsList'
 import PlanetsDetail from '../components/PlanetsDetail'
+import SearchBar from '../components/SearchBar'
 
 const PlanetsContainer = () => {
 
@@ -24,6 +25,7 @@ const PlanetsContainer = () => {
     return(
         <div>
             <h1>This is the PlanetsContainer</h1>
+            <SearchBar onPlanetSelect={onPlanetSelect}/>
             <PlanetList planets={planets} onPlanetSelect={onPlanetSelect}/>
             {selectedPlanet ? <PlanetsDetail planet={selectedPlanet}/>: null}
 

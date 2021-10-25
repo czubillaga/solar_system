@@ -5,7 +5,7 @@ import AsteroidsDetail from '../components/AsteroidsDetail'
 const AsteroidsContainer = () => {
 
     const [asteroids, setAsteroids] = useState([])
-    const [selectedAsteroids, setSelectedAsteroids] = useState(null)
+    const [selectedAsteroid, setSelectedAsteroid] = useState(null)
 
     const getAsteroids = () => {
         fetch('http://localhost:5000/api/asteroids')
@@ -24,8 +24,8 @@ const AsteroidsContainer = () => {
     return(
         <div>
             <h1>This is the AsteroidsContainer</h1>
-            <AsteroidList asteroids={asteroids} onAsteroidSelect={onAsteroidSelect}/>
-            {selectedAsteroid ? <AsteroidsDetail asteroid={selectedAsteroids}/>: null}
+            <AsteroidsList asteroids={asteroids} onAsteroidSelect={onAsteroidSelect}/>
+            {selectedAsteroid ? <AsteroidsDetail asteroid={selectedAsteroid}/>: null}
 
         </div>
     )
