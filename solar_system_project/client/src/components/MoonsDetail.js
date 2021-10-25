@@ -11,10 +11,8 @@ const MoonsDetail = ({moon, planet}) => {
     return(
         <div id="moons-detail">
             <h1>{moon.name}</h1>
-            <h2>Planet:</h2> 
-            <a href={moon.planet}>{moon.planet}</a>
-            <p>Gravity: {moon.gravity}</p>
-            <p>Distance from Sun: {moon.distance} km</p>
+            <h2>Planet: {moon.planet}</h2>
+            <p>Trivia: {moon.trivia}</p>
             <img src={moon.image_url} width="300" />
         </div>
     )
