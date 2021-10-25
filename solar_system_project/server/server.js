@@ -14,6 +14,15 @@ MongoClient.connect('mongodb://localhost:27017', { useUnifiedTopology: true})
         const planetsRouter = createRouter(planetsCollection)
         app.use('/api/planets', planetsRouter)
 })
+
+MongoClient.connect('mongodb://localhost:27017', { useUnifiedTopology: true})
+    .then((client) => {
+        const db = client.db('solar_system')
+        const moonsCollection = db.collection('moons')
+        const moonsRouter = createRouter(moonsCollection)
+        app.use('/api/moons', moonsRouter)
+})
+
 .catch(console.error)
 app.listen(5000, function() {
     console.log(`Listening on port ${ this.address().port }`)

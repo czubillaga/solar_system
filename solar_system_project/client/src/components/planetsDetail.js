@@ -19,7 +19,6 @@ const PlanetsDetail = ({planet}) => {
             <img src={planet.image_url} width="300" />
         </div>
     )
-
 }
 
 export default PlanetsDetail;
