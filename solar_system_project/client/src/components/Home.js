@@ -1,9 +1,10 @@
 import React from "react";
 import PlanetsBackgroundDetail from "./PlanetsBackgroundDetail";
+import './Home.css'
 
 const Home = () => (
-  <div>
-    <p>Welcome to our homepage about the solar system!</p>
+  <div className="home">
+  <h1>Welcome to our Solar System</h1>
     <PlanetsBackgroundDetail />
   </div>
 

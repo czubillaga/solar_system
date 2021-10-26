@@ -4,10 +4,12 @@
     position: relative;
     top: 50px;
     left: 0px;
-    height:1200px;
-    width: 1200px;
-    background-image: url(./css/MILKYWAY.jpeg);
-
+    height:100%;
+    width: auto;
+    padding: 10px;
+    background-image: url("./galaxy.png");
+    background-size: cover;
+  
 }
 
 .mercury {
@@ -21,6 +23,12 @@
     background-size: cover;
 }
 
+.mercury:hover{
+  border: solid;
+  border-color: silver;
+}
+
+
 .venus {
     position: relative;
     height: 100px;
@@ -31,6 +39,12 @@
     background-image: url(./css/7Ht5.gif);
     background-size: cover;
 }
+
+.venus:hover{
+  border: solid;
+  border-color: silver;
+}
+
 
 .earth {
     position: relative;
@@ -43,6 +57,12 @@
     background-size: cover;
 }
 
+.earth:hover{
+  border: solid;
+  border-color: silver;
+}
+
+
 .mars {
     position: relative;
     height: 100px;
@@ -53,6 +73,12 @@
     background-image: url(./css/7gz4.gif);
     background-size: cover;
 }
+
+.mars:hover{
+  border: solid;
+  border-color: silver;
+}
+
 
 .jupiter {
     position: relative;
@@ -65,6 +91,12 @@
     background-size: cover;
 }
 
+.jupiter:hover{
+  border: solid;
+  border-color: silver;
+}
+
+
 .saturn {
     position: relative;
     height: 125px;
@@ -75,6 +107,12 @@
     background-image: url(./css/56i2.gif);
     background-size: cover;
 }
+
+.saturn:hover{
+  border: solid;
+  border-color: silver;
+}
+
 
 .uranus {
     position: relative;
@@ -87,6 +125,12 @@
     background-size: cover;
 }
 
+.uranus:hover{
+  border: solid;
+  border-color: silver;
+}
+
+
 .neptune {
     position: relative;
     height: 150px;
@@ -96,6 +140,11 @@
     left: 200px;
     background-image: url(./css/KhVO.gif);
     background-size: cover;
+}
+
+.neptune:hover{
+  border: solid;
+  border-color: silver;
 }
 
 

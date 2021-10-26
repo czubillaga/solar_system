@@ -28,18 +28,6 @@ const PlanetsDetail = ({ planet }) => {
     return (
         <div className="planets-detail">
             <h1>{planet.name}</h1>
-<<<<<<< HEAD
-    <h3>Alternative Names:</h3>
-    { name() }
-    <h3>Famous Moons:</h3>
-    { moons() }
-    <h4>Surface Temperature:</h4>
-    { planet.temp }
-    <h4>Gravity:</h4>
-    { planet.gravity }
-    <h4>Distance from Sun:</h4>
-    { planet.distance } km
-=======
             <h3>Alternative Names: {name()}</h3>
             <h3>Famous Moons:</h3>
                 {moons()}
@@ -49,14 +37,13 @@ const PlanetsDetail = ({ planet }) => {
                 {planet.gravity}
             <h3 id="info">Distance from Sun:</h3>
                 {planet.distance} km
->>>>>>> develop
-        < ul className = "list" >
+            <ul className = "list">
                 <p>{planet.trivia1}</p>
                 <p>{planet.trivia2}</p>
                 <p>{planet.trivia3}</p>
-            </ul >
+            </ul>
     <img src={planet.image_url} width="300" id="planet" />
-        </div >
+        </div>
     )
 }
 
