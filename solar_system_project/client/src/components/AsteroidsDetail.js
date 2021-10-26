@@ -16,8 +16,10 @@ const AsteroidsDetail = ({asteroid}) => {
         <div className="asteroids-detail">
             <h1>{asteroid.name}</h1>
             <h2>Year of Discovery: {asteroid.discovered}</h2>
-            <h3>Chances of hitting Earth: {impact()}</h3>
-            <p>How long does a year last? {asteroid.year}</p>
+            <h3>Chances of hitting Earth:</h3>
+            {impact()}
+            <h4>How long does a year last?</h4>
+            {asteroid.year}
             <img src={asteroid.image_url} width="300" id="asteroid"/>
         </div>
     )

@@ -16,7 +16,7 @@ h2{
 #planets-list{
     border-style: solid;
     border-radius: 15px;
-    border-color: #D6BA73;
+    border-color: silver;
     background-color: black;
     margin-top: 20px;
     margin-bottom: 50px;
@@ -30,7 +30,7 @@ h2{
 #moons-list{
     border-style: solid;
     border-radius: 15px;
-    border-color: #D6BA73;
+    border-color: silver;
     background-color: black;
     margin-top: 20px;
     margin-bottom: 50px;
@@ -44,7 +44,7 @@ h2{
 #asteroids-list{
     border-style: solid;
     border-radius: 15px;
-    border-color: #D6BA73;
+    border-color: silver;
     background-color: black;
     margin-top: 20px;
     margin-bottom: 50px;
