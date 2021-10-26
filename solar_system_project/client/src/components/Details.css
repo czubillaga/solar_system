@@ -1,10 +1,10 @@
 .planets-detail{
     border-style: solid;
     border-radius: 15px;
-    border-color: #ee402c;
+    border-color: silver;
     margin-top: 20px;
     margin-bottom: 50px;
-    width: 50%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
@@ -15,10 +15,10 @@
 .moons-detail{
     border-style: solid;
     border-radius: 15px;
-    border-color: #ee402c;
+    border-color: silver;
     margin-top: 20px;
     margin-bottom: 50px;
-    width: 50%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
@@ -29,10 +29,10 @@
 .asteroids-detail{
     border-style: solid;
     border-radius: 15px;
-    border-color: #ee402c;
+    border-color: silver;
     margin-top: 20px;
     margin-bottom: 50px;
-    width: 50%;
+    width: 35%;
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
@@ -50,10 +50,11 @@
 }
 
 #planet{
-    margin-bottom: 25px;
-    margin-top: -500px;
+    margin-bottom: 50px;
+    margin-top: -675px;
     margin-right: 25px;
     float: right;
+    padding: 20px;
 }
 
 #moon{
@@ -68,11 +69,33 @@
     float: right;
 }
 
+#info{
+    color: #ee402c;
+}
+
 h1{
-    color:#7c9cdc;
+    color:#78c2f2;
     text-transform: uppercase;
 }
 
 h3, h4 {
-    color: #7c9cdc;
+    color: #ee402c;
+}
+
+p{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#links{
+    color: white;
+}
+
+#links:hover{
+    color: #78c2f2;
+
+}
+
+#heading{
+    color: #ee402c;
 }

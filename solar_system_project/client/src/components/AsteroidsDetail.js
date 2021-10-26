@@ -18,7 +18,7 @@ const AsteroidsDetail = ({ asteroid }) => {
             <h2>Year of Discovery: {asteroid.discovered}</h2>
             <h3>Chances of hitting Earth:</h3>
             {impact()}
-            <h4>How long does a year last?</h4>
+            <h3>How long does a year last?</h3>
             {asteroid.year}
             <img src={asteroid.image_url} width="300" id="asteroid" />
         </div>

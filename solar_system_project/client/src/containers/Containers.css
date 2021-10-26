@@ -1,4 +1,7 @@
 .main-container {
     display: flex;
-    justify-content: space-between;
+    position: absolute;
+    width: 75%;
+    margin-left: 75px;
+    margin-top: 50px;
   }

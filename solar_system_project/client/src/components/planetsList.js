@@ -9,7 +9,7 @@ const PlanetList = ({ planets, onPlanetSelect}) =>{
     })
     return(
         <div id="planets-list">
-        <h2>Planets</h2>
+        <h1>Planets in our Solar System</h1>
         <p>
             {planetItems}
         </p>

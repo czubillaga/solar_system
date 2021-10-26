@@ -1,10 +1,11 @@
 .nav-bar{
     display: flex;
-    justify-content: space-between;
     list-style: none;
     padding: 20px;
     margin-top: -10px;
-    background-color: #052a46;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:  #052a46;
 
 }
 
@@ -15,22 +16,48 @@ a{
     font-weight: bold;
 }
 
-button {
+button{
     border-radius: 8px;
     background-color: #052a46;
     border: none;
     color: white;
     text-align: center;
     font-size: 28px;
-    padding: 15px;
+    padding: 10px;
     width: 250px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
+    margin-top: 15px;
+}
+
+#btn span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -50px;
+    transition: 0.5s;
 }
       
+#btn:hover span {
+    padding-left: 55px;
+}
+      
+#btn:hover span:after {
+    opacity: 1;
+    right: 0;
+      
+}
+
 button span {
-    cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;

@@ -7,7 +7,7 @@ const NavBar = () => {
         <div>
         <ul className="nav-bar">
             <li>
-                <button><span><Link to="/">Home</Link></span></button>
+                <button id="btn"><span><Link to="/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Circle-icons-rocket.svg/1200px-Circle-icons-rocket.svg.png" height="75"/></Link></span></button>
             </li>
             <li>
                 <button><span><Link to="/planets">Planets</Link></span></button>
