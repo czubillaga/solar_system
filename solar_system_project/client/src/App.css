@@ -1,1 +1,101 @@
 
+.space {
+    display: flex;
+    position: relative;
+    top: 50px;
+    left: 0px;
+    height:1200px;
+    width: 1200px;
+    background-image: url(./css/MILKYWAY.jpeg);
+
+}
+
+.mercury {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: 125px;
+    bottom: 125px;
+    left: 20px;
+    background-image: url(./css/Owne.gif);
+    background-size: cover;
+}
+
+.venus {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: 125px;
+    bottom: 125px;
+    left: 30px;
+    background-image: url(./css/7Ht5.gif);
+    background-size: cover;
+}
+
+.earth {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: 125px;
+    bottom: 125px;
+    left: 40px;
+    background-image: url(./css/S6oD.gif);
+    background-size: cover;
+}
+
+.mars {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: 125px;
+    bottom: 125px;
+    left: 70px;
+    background-image: url(./css/7gz4.gif);
+    background-size: cover;
+}
+
+.jupiter {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: 125px;
+    bottom: 125px;
+    left: 100px;
+    background-image: url(./css/WME4.gif);
+    background-size: cover;
+}
+
+.saturn {
+    position: relative;
+    height: 125px;
+    width: 200px;
+    top: 110px;
+    bottom: 150px;
+    left: 125px;
+    background-image: url(./css/56i2.gif);
+    background-size: cover;
+}
+
+.uranus {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: 125px;
+    bottom: 125px;
+    left: 150px;
+    background-image: url(./css/149q.gif);
+    background-size: cover;
+}
+
+.neptune {
+    position: relative;
+    height: 150px;
+    width: 125px;
+    top: 95px;
+    bottom: 50px;
+    left: 200px;
+    background-image: url(./css/KhVO.gif);
+    background-size: cover;
+}
+
+

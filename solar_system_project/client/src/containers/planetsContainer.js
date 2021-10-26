@@ -22,12 +22,14 @@ const PlanetsContainer = () => {
         setSelectedPlanet(planet)
     }
 
-    return(
+    return (
         <div className="main-container">
-            <PlanetList planets={planets} onPlanetSelect={onPlanetSelect}/>
-            {selectedPlanet ? <PlanetsDetail planet={selectedPlanet}/>: null}
+            <PlanetList planets={planets} onPlanetSelect={onPlanetSelect} />
+            {selectedPlanet ? <PlanetsDetail planet={selectedPlanet} /> : null}
+            
+
         </div>
     )
 }
 
-export default PlanetsContainer
+export default PlanetsContainer;
