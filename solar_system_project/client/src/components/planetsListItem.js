@@ -1,5 +1,6 @@
 import React from 'react';
 import './Lists.css'
+import './ListItem.css'
 
 const PlanetsListItem = ({planet, onPlanetSelect}) => {
     const handlePlanetClick = (clickedPlanet) => {

@@ -3,10 +3,11 @@
     list-style: none;
     margin-left: 20px;
     color: white;
+    font-size: 25px;
 }
 
 .list:hover{
-    color: #7c9cdc;
+    color: #78c2f2;
 }
 
 h2{
@@ -17,8 +18,8 @@ h2{
 #planets-list{
     border-style: solid;
     border-radius: 15px;
-    border-color: #ee402c;
-    background-color: black;
+    border-color: silver;
+    background-color: #052a46;
     margin-top: 20px;
     margin-bottom: 50px;
     width: 10%;
@@ -31,8 +32,8 @@ h2{
 #moons-list{
     border-style: solid;
     border-radius: 15px;
-    border-color: #ee402c;
-    background-color: black;
+    border-color: silver;
+    background-color: #052a46;
     margin-top: 20px;
     margin-bottom: 50px;
     width: 10%;
@@ -45,8 +46,8 @@ h2{
 #asteroids-list{
     border-style: solid;
     border-radius: 15px;
-    border-color: #ee402c;
-    background-color: black;
+    border-color: silver;
+    background-color: #052a46;
     margin-top: 20px;
     margin-bottom: 50px;
     width: 10%;
