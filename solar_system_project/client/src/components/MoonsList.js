@@ -9,7 +9,7 @@ const MoonList = ({ moons, onMoonSelect}) =>{
     })
     return(
         <div id="moons-list">
-        <h1>Moons</h1>
+        <h1>Moons in our Solar System</h1>
         <p>
             {moonItems}
         </p>

@@ -9,7 +9,7 @@ const AsteroidList = ({ asteroids, onAsteroidSelect}) =>{
     })
     return(
         <div id="asteroids-list">
-        <h1>Asteroids</h1>
+        <h1>Some random Asteroids</h1>
         <p>
             {asteroidItems}
         </p>
