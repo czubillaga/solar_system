@@ -6,9 +6,10 @@
     height:100%;
     width: auto;
     padding: 10px;
-  background-size: cover;
-  background-image: url("./galaxy.png");
-  margin-top: -68px;
+    background-size: cover;
+    /* background-image: url("./galaxy.png"); */
+    /* background-image: url(./css/MILKYWAY.jpeg); */
+    margin-top: -68px;
 }
 
 /* Mercury */
@@ -22,6 +23,7 @@
     left: 20px;
     background-image: url(./css/Owne.gif);
     background-size: cover;
+    opacity: 2;
 }
 
 .mercury:hover{
@@ -40,6 +42,7 @@
   left: 0;
   right: 0;
   visibility: hidden;
+  padding-top: 100px;
 }
 
 .mercury:hover .mercury_p{
@@ -75,6 +78,7 @@
   left: 0;
   right: 0;
   visibility: hidden;
+  padding-top: 100px;
 }
 
 .venus:hover .venus_p{
@@ -111,6 +115,7 @@
   left: 0;
   right: 0;
   visibility: hidden;
+  padding-top: 100px;
 }
 
 .earth:hover .earth_p{
@@ -147,6 +152,7 @@
   left: 0;
   right: 0;
   visibility: hidden;
+  padding-top: 100px;
 }
 
 .mars:hover .mars_p{
@@ -182,6 +188,7 @@
   left: 0;
   right: 0;
   visibility: hidden;
+  padding-top: 100px;
 }
 
 .jupiter:hover .jupiter_p{
@@ -217,6 +224,7 @@
   left: 0;
   right: 0;
   visibility: hidden;
+  padding-top: 150px;
 }
 
 .saturn:hover .saturn_p{
@@ -252,6 +260,7 @@
   left: 0;
   right: 0;
   visibility: hidden;
+  padding-top: 100px;
 }
 
 .uranus:hover .uranus_p{
@@ -287,6 +296,7 @@
   left: 0;
   right: 0;
   visibility: hidden;
+  padding-top: 150px;
 }
 
 .neptune:hover .neptune_p{
