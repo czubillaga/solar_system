@@ -4,10 +4,11 @@
     margin-left: 20px;
     color: white;
     font-size: 25px;
+    padding: 25px;
 }
 
 .list:hover{
-    color: #78c2f2;
+    color: rgba(192, 192, 192, 0.582);
 }
 
 h2{
@@ -27,6 +28,7 @@ h2{
     margin-right: auto;
     padding: 15px;
     font-weight: bold;
+    width: 25%;
 }
 
 #moons-list{
@@ -41,6 +43,7 @@ h2{
     margin-right: auto;
     padding: 15px;
     font-weight: bold;
+    width: 25%;
 }
 
 #asteroids-list{
@@ -55,5 +58,6 @@ h2{
     margin-right: auto;
     padding: 15px;
     font-weight: bold;
+    width: 25%;
 }
 

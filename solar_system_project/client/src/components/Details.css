@@ -15,7 +15,7 @@
 .moons-detail{
     border-style: solid;
     border-radius: 15px;
-    border-color: #ee402c;
+    border-color: silver;
     margin-top: 20px;
     margin-bottom: 50px;
     width: 50%;
@@ -29,7 +29,7 @@
 .asteroids-detail{
     border-style: solid;
     border-radius: 15px;
-    border-color: #ee402c;
+    border-color: silver;
     margin-top: 20px;
     margin-bottom: 50px;
     width: 50%;
