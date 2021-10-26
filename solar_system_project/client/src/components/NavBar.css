@@ -31,6 +31,12 @@ button{
     margin-top: 15px;
 }
 
+#img{
+    border: solid 2px;
+    border-color: silver;
+    border-radius: 50px;
+}
+
 #btn span{
     cursor: pointer;
     display: inline-block;
@@ -49,12 +55,13 @@ button{
       
 #btn:hover span {
     padding-left: 55px;
+  
 }
       
 #btn:hover span:after {
     opacity: 1;
     right: 0;
-      
+
 }
 
 button span {

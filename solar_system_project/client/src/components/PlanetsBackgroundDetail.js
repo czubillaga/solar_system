@@ -1,45 +1,60 @@
 import React from "react";
+import '../App.css';
 
 const PlanetsBackgroundDetail = () => {
 
     return (
-        <>
             <div className='space'>
 
-                <a href="/planets">
-                    <div className='mercury'></div>
+                <a href="https://www.youtube.com/watch?v=rX_NCCpw5Uo">
+                    <div className='mercury'>
+                        <p className='mercury_p'>Click on the planet to learn more!</p>
+                    </div>
                 </a>
 
-                <a href="/planets">
-                    <div className='venus'></div>
+                <a href="https://www.youtube.com/watch?v=5v5prMW3AzA">
+                    <div className='venus'>
+                    <p className='venus_p'>Click on the planet to learn more!</p>
+                    </div>
                 </a>
 
-                <a href="/planet">
-                    <div className='earth'></div>
+                <a href="https://www.youtube.com/watch?v=v9CRt3-bns0">
+                    <div className='earth'>
+                    <p className='earth_p'>Click on the planet to learn more!</p>
+                    </div>
                 </a>
 
-                <a href="/planets">
-                    <div className='mars'></div>
+                <a href="https://www.youtube.com/watch?v=H19V4w2P7fE">
+                    <div className='mars'>
+                    <p className='mars_p'>Click on the planet to learn more!</p>
+                    </div>
                 </a>
 
-                <a href="/planets">
-                    <div className='jupiter'></div>
+                <a href="https://www.youtube.com/watch?v=PtkqwslbLY8">
+                    <div className='jupiter'>
+                    <p className='jupiter_p'>Click on the planet to learn more!</p>
+                    </div>
                 </a>
 
-                <a href="/planets">
-                    <div className='saturn'></div>
+                <a href="https://www.youtube.com/watch?v=vlb-b5ch81k">
+                    <div className='saturn'>
+                    <p className='saturn_p'>Click on the planet to learn more!</p>
+                    </div>
                 </a>
 
-                <a href="/planets">
-                    <div className='uranus'></div>
+                <a href="https://www.youtube.com/watch?v=m4NXbFOiOGk">
+                    <div className='uranus'>
+                    <p className='uranus_p'>Click on the planet to learn more!</p>
+                    </div>
                 </a>
 
-                <a href="/planets">
-                    <div className='neptune'></div>
+                <a href="https://www.youtube.com/watch?v=NStn7zZKXfE">
+                    <div className='neptune'>
+                    <p className='neptune_p'>Click on the planet to learn more!</p>
+                    </div>
                 </a>
 
             </div>
-        </>
 
     )
 }

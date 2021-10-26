@@ -1,4 +1,3 @@
-
 .space {
     display: flex;
     position: relative;
@@ -7,10 +6,12 @@
     height:100%;
     width: auto;
     padding: 10px;
-    background-image: url("./galaxy.png");
-    background-size: cover;
-  
+  background-size: cover;
+  background-image: url("./galaxy.png");
+  margin-top: -68px;
 }
+
+/* Mercury */
 
 .mercury {
     position: relative;
@@ -24,10 +25,29 @@
 }
 
 .mercury:hover{
-  border: solid;
+  border:solid;
+  border-radius: 50px;
   border-color: silver;
 }
 
+
+.mercury_p{
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+}
+
+.mercury:hover .mercury_p{
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Venus */
 
 .venus {
     position: relative;
@@ -42,9 +62,27 @@
 
 .venus:hover{
   border: solid;
+  border-radius: 50px;
   border-color: silver;
 }
 
+.venus_p{
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+}
+
+.venus:hover .venus_p{
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Earth */
 
 .earth {
     position: relative;
@@ -59,9 +97,28 @@
 
 .earth:hover{
   border: solid;
+  border-radius: 50px;
   border-color: silver;
 }
 
+
+.earth_p{
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+}
+
+.earth:hover .earth_p{
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Mars */
 
 .mars {
     position: relative;
@@ -76,9 +133,28 @@
 
 .mars:hover{
   border: solid;
+  border-radius: 50px;
   border-color: silver;
 }
 
+
+.mars_p{
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+}
+
+.mars:hover .mars_p{
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Jupiter */
 
 .jupiter {
     position: relative;
@@ -93,9 +169,27 @@
 
 .jupiter:hover{
   border: solid;
+  border-radius: 50px;
   border-color: silver;
 }
 
+.jupiter_p{
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+}
+
+.jupiter:hover .jupiter_p{
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Saturn */
 
 .saturn {
     position: relative;
@@ -110,9 +204,27 @@
 
 .saturn:hover{
   border: solid;
+  border-radius: 250px;
   border-color: silver;
 }
 
+.saturn_p{
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+}
+
+.saturn:hover .saturn_p{
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Uranus */
 
 .uranus {
     position: relative;
@@ -127,9 +239,27 @@
 
 .uranus:hover{
   border: solid;
+  border-radius: 50px;
   border-color: silver;
 }
 
+.uranus_p{
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+}
+
+.uranus:hover .uranus_p{
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Neptune */
 
 .neptune {
     position: relative;
@@ -144,7 +274,24 @@
 
 .neptune:hover{
   border: solid;
+  border-radius: 50px;
   border-color: silver;
+}
+
+.neptune_p{
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+}
+
+.neptune:hover .neptune_p{
+  visibility: visible;
+  opacity: 1;
 }
 
 
