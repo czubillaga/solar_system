@@ -1,42 +1,42 @@
 .planets-detail{
     border-style: solid;
     border-radius: 15px;
-    border-color: silver;
+    border-color: #ee402c;
     margin-top: 20px;
     margin-bottom: 50px;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
-    background-color: black;
+    background-image: url("../galaxy.png");
     color: white;
 }
 
 .moons-detail{
     border-style: solid;
     border-radius: 15px;
-    border-color: silver;
+    border-color: #ee402c;
     margin-top: 20px;
     margin-bottom: 50px;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
-    background-color: black;
+    background-image: url("../galaxy.png");
     color: white;
 }
 
 .asteroids-detail{
     border-style: solid;
     border-radius: 15px;
-    border-color: silver;
+    border-color: #ee402c;
     margin-top: 20px;
     margin-bottom: 50px;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
-    background-color: black;
+    background-image: url("../galaxy.png");
     color: white;
 }
 
@@ -69,10 +69,10 @@
 }
 
 h1{
-    color:#f1402a;
+    color:#7c9cdc;
     text-transform: uppercase;
 }
 
 h3, h4 {
-    color: #f1402a;
+    color: #7c9cdc;
 }
