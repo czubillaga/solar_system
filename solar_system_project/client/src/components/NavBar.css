@@ -2,9 +2,10 @@
     display: flex;
     justify-content: space-between;
     list-style: none;
-    padding: 35px;
+    padding: 20px;
     margin-top: -10px;
-    color: #D6BA73;
+    background-color: #052a46;
+
 }
 
 a{
@@ -16,7 +17,7 @@ a{
 
 button {
     border-radius: 8px;
-    background-color: black;
+    background-color: #052a46;
     border: none;
     color: white;
     text-align: center;
