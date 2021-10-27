@@ -19,7 +19,7 @@ const PlanetsDetail = ({ planet }) => {
 
     const moons = function () {
         if (planet.moons.length === 0) {
-            return <h2>Has no moons!</h2>
+            return <h2>Has nae moons!</h2>
         } else {
             return <a href="/moons" id="links">{planetMoons}</a>
         }
