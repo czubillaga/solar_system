@@ -9,7 +9,8 @@
     background-size: cover;
     /* background-image: url("./galaxy.png"); */
     /* background-image: url(./css/MILKYWAY.jpeg); */
-    margin-top: -68px;
+    margin-top: 100px;
+    margin-left: 300px;
 }
 
 /* Mercury */
@@ -28,7 +29,7 @@
 
 .mercury:hover{
   border:solid;
-  border-radius: 40px;
+  border-radius: 50px;
   border-color: silver;
 }
 
@@ -102,7 +103,7 @@
 
 .earth:hover{
   border: solid;
-  border-radius: 40px;
+  border-radius: 50px;
   border-color: silver;
 }
 
@@ -139,7 +140,7 @@
 
 .mars:hover{
   border: solid;
-  border-radius: 40px;
+  border-radius: 50px;
   border-color: silver;
 }
 
@@ -176,7 +177,7 @@
 
 .jupiter:hover{
   border: solid;
-  border-radius: 40px;
+  border-radius: 50px;
   border-color: silver;
 }
 
@@ -248,7 +249,7 @@
 
 .uranus:hover{
   border: solid;
-  border-radius: 40px;
+  border-radius: 50px;
   border-color: silver;
 }
 
