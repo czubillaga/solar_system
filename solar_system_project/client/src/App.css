@@ -28,8 +28,12 @@
 
 .mercury:hover{
   border:solid;
-  border-radius: 40px;
+  border-radius: 50px;
   border-color: silver;
+}
+
+.mercury_vid{
+  padding-top: 300px;
 }
 
 
@@ -47,8 +51,11 @@
 
 .mercury:hover .mercury_p{
   visibility: visible;
-  opacity: 1;
-  transition: 0.5s;
+  opacity: 5;
+}
+
+.mercury:click .mercury_vid{
+  visibility: visible;
 }
 
 /* Venus */
@@ -102,7 +109,7 @@
 
 .earth:hover{
   border: solid;
-  border-radius: 40px;
+  border-radius: 50px;
   border-color: silver;
 }
 
@@ -139,7 +146,7 @@
 
 .mars:hover{
   border: solid;
-  border-radius: 40px;
+  border-radius: 50px;
   border-color: silver;
 }
 
@@ -176,7 +183,7 @@
 
 .jupiter:hover{
   border: solid;
-  border-radius: 40px;
+  border-radius: 50px;
   border-color: silver;
 }
 
@@ -248,7 +255,7 @@
 
 .uranus:hover{
   border: solid;
-  border-radius: 40px;
+  border-radius: 50px;
   border-color: silver;
 }
 

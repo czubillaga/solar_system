@@ -2,9 +2,10 @@ import React from "react";
 import PlanetsBackgroundDetail from "./PlanetsBackgroundDetail";
 import './Home.css'
 
-const Home = () => (
+const Home = ({onClickedPlanet}) => (
+
   <div className="home">
-    <PlanetsBackgroundDetail />
+    <PlanetsBackgroundDetail onClickedPlanet={onClickedPlanet}/>
   </div>
 
 );

@@ -3,20 +3,25 @@ import '../App.css';
 
 const PlanetsBackgroundDetail = () => {
 
+
     return (
             <div className='space'>
 
-                <a href="https://www.youtube.com/watch?v=rX_NCCpw5Uo">
+                <iframe className="mercury_vid" src="https://www.youtube.com/embed/rX_NCCpw5Uo" frameborder="0" widt="100%" height="100%" allowFullScreen allow='autoplay; fullscreen'></iframe>
                     <div className='mercury'>
                         <p className='mercury_p'>Click on Mercury to learn more!</p>
                     </div>
-                </a>
 
-                <a href="https://www.youtube.com/watch?v=5v5prMW3AzA">
+                <iframe className="venus_vid" src="https://www.youtube.com/embed/5v5prMW3AzA" frameborder="0" widt="100%" height="100%" allowFullScreen allow='autoplay; fullscreen'></iframe>
+                    <div className='venus'>
+                        <p className='venus_p'>Click on Venus to learn more!</p>
+                    </div>
+
+                {/* <a href="https://www.youtube.com/watch?v=5v5prMW3AzA">
                     <div className='venus'>
                     <p className='venus_p'>Click on Venus to learn more!</p>
                     </div>
-                </a>
+                </a> */}
 
                 <a href="https://www.youtube.com/watch?v=v9CRt3-bns0">
                     <div className='earth'>
