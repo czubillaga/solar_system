@@ -1,3 +1,8 @@
+h2{
+    margin-left: 20px;
+    color: white;
+}
+
 .list{
     text-decoration: none;
     list-style: none;
@@ -11,11 +16,6 @@
 .list:hover{
     color: rgba(192, 192, 192, 0.671);
     cursor: pointer;
-}
-
-h2{
-    margin-left: 20px;
-    color: white;
 }
 
 #planets-list{

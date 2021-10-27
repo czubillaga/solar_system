@@ -43,15 +43,6 @@
     color: white;
 }
 
-.list{
-    list-style: none;
-}
-
-.list li a{
-    text-decoration: none;
-    color: white;
-}
-
 #planet{
     margin-bottom: 50px;
     margin-top: -675px;
@@ -101,4 +92,13 @@ p{
 
 #heading{
     color: #ee402c;
+}
+
+.list{
+    list-style: none;
+}
+
+.list li a{
+    text-decoration: none;
+    color: white;
 }
