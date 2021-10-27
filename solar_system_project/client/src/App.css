@@ -9,8 +9,9 @@
     background-size: cover;
     /* background-image: url("./galaxy.png"); */
     /* background-image: url(./css/MILKYWAY.jpeg); */
-    margin-top: 100px;
-    margin-left: 300px;
+    margin-top: 10px;
+    margin-right: 150px;
+    justify-content: space-evenly;
 }
 
 /* Mercury */
@@ -22,7 +23,7 @@
     top: 125px;
     bottom: 125px;
     left: 20px;
-    background-image: url(./css/Owne.gif);
+    background-image: url(./css/mercury.gif);
     background-size: cover;
     opacity: 2;
 }
@@ -61,7 +62,7 @@
     top: 125px;
     bottom: 125px;
     left: 30px;
-    background-image: url(./css/7Ht5.gif);
+    background-image: url(./css/venus.gif);
     background-size: cover;
 }
 
@@ -97,7 +98,7 @@
     top: 125px;
     bottom: 125px;
     left: 40px;
-    background-image: url(./css/S6oD.gif);
+    background-image: url(./css/earth.gif);
     background-size: cover;
 }
 
@@ -134,7 +135,7 @@
     top: 125px;
     bottom: 125px;
     left: 70px;
-    background-image: url(./css/7gz4.gif);
+    background-image: url(./css/mars.gif);
     background-size: cover;
 }
 
@@ -213,7 +214,7 @@
 
 .saturn:hover{
   border: solid;
-  border-radius: 250px;
+  border-radius: 50px;
   border-color: silver;
 }
 
@@ -243,7 +244,7 @@
     top: 125px;
     bottom: 125px;
     left: 150px;
-    background-image: url(./css/149q.gif);
+    background-image: url(./css/uranus.gif);
     background-size: cover;
 }
 
@@ -279,13 +280,13 @@
     top: 95px;
     bottom: 50px;
     left: 200px;
-    background-image: url(./css/KhVO.gif);
+    background-image: url(./css/neptune.gif);
     background-size: cover;
 }
 
 .neptune:hover{
   border: solid;
-  border-radius: 50px;
+  border-radius: 100px;
   border-color: silver;
 }
 

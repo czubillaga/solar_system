@@ -6,49 +6,49 @@ const PlanetsBackgroundDetail = () => {
     return (
             <div className='space'>
 
-                <a href="https://www.youtube.com/watch?v=rX_NCCpw5Uo">
+                <a href="https://www.youtube.com/watch?v=rX_NCCpw5Uo" target="_blank">
                     <div className='mercury'>
                         <p className='mercury_p'>Click on Mercury to learn more!</p>
                     </div>
                 </a>
 
-                <a href="https://www.youtube.com/watch?v=5v5prMW3AzA">
+                <a href="https://www.youtube.com/watch?v=5v5prMW3AzA" target="_blank">
                     <div className='venus'>
                     <p className='venus_p'>Click on Venus to learn more!</p>
                     </div>
                 </a>
 
-                <a href="https://www.youtube.com/watch?v=v9CRt3-bns0">
+                <a href="https://www.youtube.com/watch?v=v9CRt3-bns0" target="_blank">
                     <div className='earth'>
                     <p className='earth_p'>Click on Earth to learn more!</p>
                     </div>
                 </a>
 
-                <a href="https://www.youtube.com/watch?v=H19V4w2P7fE">
+                <a href="https://www.youtube.com/watch?v=H19V4w2P7fE" target="_blank">
                     <div className='mars'>
                     <p className='mars_p'>Click on Mars to learn more!</p>
                     </div>
                 </a>
 
-                <a href="https://www.youtube.com/watch?v=PtkqwslbLY8">
+                <a href="https://www.youtube.com/watch?v=PtkqwslbLY8" target="_blank">
                     <div className='jupiter'>
                     <p className='jupiter_p'>Click on Jupiter to learn more!</p>
                     </div>
                 </a>
 
-                <a href="https://www.youtube.com/watch?v=vlb-b5ch81k">
+                <a href="https://www.youtube.com/watch?v=vlb-b5ch81k" target="_blank">
                     <div className='saturn'>
                     <p className='saturn_p'>Click on Saturn to learn more!</p>
                     </div>
                 </a>
 
-                <a href="https://www.youtube.com/watch?v=m4NXbFOiOGk">
+                <a href="https://www.youtube.com/watch?v=m4NXbFOiOGk" target="_blank">
                     <div className='uranus'>
                     <p className='uranus_p'>Click on Uranus to learn more!</p>
                     </div>
                 </a>
 
-                <a href="https://www.youtube.com/watch?v=NStn7zZKXfE">
+                <a href="https://www.youtube.com/watch?v=NStn7zZKXfE" target="_blank">
                     <div className='neptune'>
                     <p className='neptune_p'>Click on Neptune to learn more!</p>
                     </div>

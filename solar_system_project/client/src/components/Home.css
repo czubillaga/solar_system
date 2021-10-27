@@ -1,3 +1,12 @@
 .home{
     text-align: center;
+    margin-top: 25px;
+}
+
+.title{
+    color: silver;
+}
+
+h2{
+    display: block;
 }
