@@ -1,10 +1,12 @@
 .home{
     text-align: center;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 .title{
-    color: silver;
+    color: white;
+    font-size: 40px;
+    font-family:monospace;
 }
 
 h2{
